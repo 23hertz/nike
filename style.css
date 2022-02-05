@@ -1,0 +1,110 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #49b5e7;
+  }
+  
+  a:hover {
+    color: #76c7ed;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Dosis", sans-serif;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    margin-left:20px;
+    color:#000 ;
+}
+
+.navbar-brand{
+    color:#000;
+}
+
+.nav-link{
+    color:#000 !important;
+}
+
+.active{
+    color:rgb(26, 170, 163) !important; 
+}
+
+/* Dripping Part*/
+.always{
+    font-size:70px;
+    color:rgb(26, 170, 163) !important; 
+    font-weight:normal;
+    margin-top:50px;
+}
+
+.never{
+    font-weight:bold;
+    width:250px;
+}
+
+.view{
+    font-size:20px;
+    background-color:rgb(26, 170, 163);
+    color:#fff;
+    border-radius:0 !important;
+}
+
+/* Alwasys look fresh*/
+/* Dripping Part*/
+.fresh{
+    font-size:40px;
+    color:#000; 
+    font-weight:normal;
+    margin-top:40px;
+}
+
+.about{
+    margin-top:100px !important;
+}
+
+.services{
+    margin-top:150px !important;
+}
+
+.offers{
+    margin-top:120px !important;    
+}
+
+.appText{
+    padding-top:140px !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .abtImg {
+      margin-top:170px !important;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .apps {
+      text-align: center;
+    }
+
+    .apph5{
+        text-align:center !important;
+    }
+
+    .fsec{
+        margin-top:50px !important;
+    }
+  } 
+
+  
